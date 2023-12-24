@@ -1,13 +1,9 @@
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue'
-import Redacciones from '../components/Redacciones.vue'
-import Articulos from '../components/Articulos.vue'
 </script>
 
 <template>
-  <main>
+  <main class="d-flex flex-column gap-5 py-5">
     <TheWelcome />
-    <Redacciones />
-    <Articulos />
   </main>
 </template>

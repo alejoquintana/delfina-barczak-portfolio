@@ -1,14 +1,24 @@
 <template>
-    <div class="row">
-        <div class="col-3" v-for="articulo,i in useDataStore().articulos" :key="i">
-            title:{{ articulo.title }} <br>
-            date:{{ articulo.date }} <br>
-            by:{{ articulo.by }} <br>
-            link:{{ articulo.link }} <br>
-            photography:{{ articulo.photography }} <br>
-            subtitle:{{ articulo.subtitle }} <br>
-            description:{{ articulo.description }} <br>
-            site:{{ articulo.site }} <br> <br> <br>
+    <h2>Producciones audiovisuales</h2>
+    <div class="container-manson pt-4">
+        <div class="block" v-for="articulo, i in useDataStore().articulos" :key="i">
+            <a v-if="articulo.type == 'article'" class="content scale-hover articulo-card radius p-2" :href="articulo.link" target="_blank">
+                <div class="a-articulos p-2">
+                    <h4>
+                        {{ articulo.title }}
+                    </h4>
+                    <p>
+                        {{ articulo.description }}
+                    </p>
+                    <hr>
+                    <p class="text-end mb-0">
+                        {{ articulo.site }}
+                    </p>
+                </div>
+            </a>
+            <div v-else class="content articulo-card scale-hover radius overflow-hidden">
+                <img class="w-100" :src="'/src/assets/' + articulo.link" alt="">
+            </div>
         </div>
     </div>
 </template>
@@ -22,6 +32,49 @@ onMounted(async () => {
 })
 </script>
 
-<style>
+<style lang="scss" scoped>
+.a-articulos {
+    text-decoration: none;
+    //color: initial;
+}
 
+.articulo-card {
+    border: 1px solid $c1;
+    //box-shadow: 0px 0px 10px 0px #88888888;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.block {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+
+.block>img {
+    grid-row: 1 / -1;
+    grid-column: 1;
+}
+
+.block a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+
+.container-manson {
+    column-count: 2;
+    column-gap: 10px;
+}
+@media (max-width:400px) {
+    .container-manson {
+        column-count: 1;
+        //column-gap: 10px;
+    }
+}
 </style>

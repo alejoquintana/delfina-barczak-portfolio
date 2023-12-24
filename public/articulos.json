@@ -1,15 +1,6 @@
 [
     {
-        "title":"¿La única salida es Ezeiza?",
-        "date":"Feb 21, 2023",
-        "by":"Delfina Barczak y Victoria Regal",
-        "link":"https://anccom.sociales.uba.ar/2023/02/21/la-unica-salida-es-ezeiza/",
-        "photography":"ARCHIVO Magali Druscovich",
-        "subtitle":"¿Cuántos jóvenes emigran del país? ¿Es una cuestión de clase? El mito del éxodo y por qué los latinoamericanos siguen eligiendo a la Argentina cuando se van de sus terruños.",
-        "description":"Investigación realizada durante un año de cursada que logró ser publicada en ANCCOM. Se indagó tanto al éxodo argentino como a los migrantes latinoamericanos en el país a través de encuestas, recolección de datos y testimonios.",
-        "site":"Agencia de Noticias de Ciencias de la Comunicación - UBA"
-    },
-    {
+        "type":"article",
         "title":"Entrevista a Matias Bottero",
         "date":"Sept 27, 2020",
         "by":"Delfina Barczak",
@@ -20,6 +11,7 @@
         "site":"YouTube"
     },
     {
+        "type":"article",
         "title":"Entrevista a Nefastos Podcast",
         "date":"15/11/2020",
         "by":"Delfina Barczak",
@@ -30,6 +22,7 @@
         "site":"YouTube"
     },
     {
+        "type":"article",
         "title":"Cumbre Juventear Digital",
         "date":"16/09/2020",
         "by":"",
@@ -40,6 +33,7 @@
         "site":"YouTube"
     },
     {
+        "type":"article",
         "title":"Newsletter - Comunicación política",
         "date":"08/01/2022",
         "by":"",
@@ -50,6 +44,7 @@
         "site":""
     },
     {
+        "type":"article",
         "title":"Contenido didáctico para CLIC! 2022",
         "date":"04/01/2022",
         "by":"",
@@ -60,13 +55,58 @@
         "site":""
     },
     {
-        "title":"",
-        "date":"",
-        "by":"",
-        "link":"",
-        "photography":"",
-        "subtitle":"",
-        "description":"",
-        "site":""
+        "type": "image",
+        "title": "",
+        "date": "",
+        "by": "",
+        "link": "1.jpg",
+        "photography": "",
+        "subtitle": "",
+        "description": "",
+        "site": ""
+    },
+    {
+        "type": "image",
+        "title": "",
+        "date": "",
+        "by": "",
+        "link": "2.jpg",
+        "photography": "",
+        "subtitle": "",
+        "description": "",
+        "site": ""
+    },
+    {
+        "type": "image",
+        "title": "",
+        "date": "",
+        "by": "",
+        "link": "3.jpg",
+        "photography": "",
+        "subtitle": "",
+        "description": "",
+        "site": ""
+    },
+    {
+        "type": "image",
+        "title": "",
+        "date": "",
+        "by": "",
+        "link": "4.jpg",
+        "photography": "",
+        "subtitle": "",
+        "description": "",
+        "site": ""
+    },
+    {
+        "type": "image",
+        "title": "",
+        "date": "",
+        "by": "",
+        "link": "5.jpg",
+        "photography": "",
+        "subtitle": "",
+        "description": "",
+        "site": ""
     }
 ]

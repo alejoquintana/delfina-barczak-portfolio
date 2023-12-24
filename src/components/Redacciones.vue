@@ -1,21 +1,40 @@
 <template>
-    <h2>Redacciones</h2>
+    <div class="row">
+        <div class="col-8 d-flex flex-column justify-content-around">
+            <h2>Redacciones</h2>
+            <div v-for="item, i in items" :key="i">
+
+                <h6>
+                    {{ item.type }}
+                </h6>
+                <h4>
+                    {{ item.title }}
+                </h4>
+                <p class="text-end text-0">
+                    {{ item.for }}
+                </p>
+            </div>
+        </div>
+        <div class="col-4 d-flex">
+            <img class="ms-auto w-75 radius" src="/src/assets/playa.jpg" alt="">
+        </div>
+    </div>
   <ul>
-    <li v-for="item,i in items" :key="i">
-        {{ item }}
-    </li>
   </ul>
 </template>
 
 <script setup>
 let items = [
-    'Participé de la investigación analítica sobre la contaminación en la Cuenca Matanza Riachuelo en el Taller de Informática, Telemática y Datos. (UBA)',
-    'Publique la investigación periodística “¿La única salida es ezeiza ?” en la Agencia de Noticias de la Carrera de Comunicación. (UBA)',
-    'Redacte una serie autobiográfica, dos cuentos propios y el ensayo de entrevistas periodísticas. (UBA)',
+    {
+        type:"Investigación analítica",
+        title:"“Contaminación en la Cuenca Matanza Riachuelo”",
+        for:"Taller de Informática, Telemática y Datos. (UBA)",
+    },
+    {
+        type:"Investigación periodística",
+        title:"“¿La única salida es ezeiza ?”",
+        for:"Agencia de Noticias de la Carrera de Comunicación. (UBA)",
+    }
 ]
 
 </script>
-
-<style>
-
-</style>

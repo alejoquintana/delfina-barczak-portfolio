@@ -1,16 +1,16 @@
 <script setup>
+import Icon from "@/components/icons.vue";
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
+    <header>
       <nav>
-        <RouterLink to="/">Inicio</RouterLink>
-        <RouterLink to="#articulos">Articulos</RouterLink>
-        <RouterLink to="#redacciones">Redacciones</RouterLink>
-        <RouterLink to="#contenido-digital">Contenido digital</RouterLink>
+        <RouterLink to="/"><Icon icon="home" size="lg"/></RouterLink>
       </nav>
-  </header>
+    </header>
 
-  <RouterView />
+    <div class="max-width">
+        <RouterView />
+    </div>
 </template>

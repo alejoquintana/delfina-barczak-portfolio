@@ -10,6 +10,7 @@ main {
     font-weight: normal;
     background-color: $c6;
     color: #fff;
+    width: 100vw;
 }
 
 body {
@@ -93,7 +94,7 @@ nav a:first-of-type {
 
 a {
     color: $c0 !important;
-    //text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 @media (hover: hover) {}

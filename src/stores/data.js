@@ -5,10 +5,6 @@ export const useDataStore = defineStore('data', () => {
     const articulos = ref([])
     const routes = ref([
         {
-            path: '/',
-            name: 'home',
-        },
-        {
             path: '/redacciones',
             name: 'redacciones',
         },
@@ -30,7 +26,7 @@ export const useDataStore = defineStore('data', () => {
         },
         {
             path: '/publicaciones-argentina',
-            name: 'publicaciones y diseño de argentina gob ar',
+            name: 'publicaciones y diseño de argentina.gob.ar',
         }
     ])
     async function fetchArticulos() {

@@ -28,7 +28,8 @@ let items = [
     {
         type:"Investigación analítica",
         title:"“Contaminación en la Cuenca Matanza Riachuelo”",
-        for:"Taller de Informática, Telemática y Datos. (UBA)",
+        for: "Taller de Informática, Telemática y Datos. (UBA)",
+        link: "https://anccom.sociales.uba.ar/2023/02/21/la-unica-salida-es-ezeiza/"
     },
     {
         type:"Investigación periodística",
@@ -36,5 +37,4 @@ let items = [
         for:"Agencia de Noticias de la Carrera de Comunicación. (UBA)",
     }
 ]
-
 </script>

@@ -1,19 +1,28 @@
 <template>
-    <h2>
-        Producciones audiovisuales
-    </h2>
-    Edite, entreviste y conduje en el programa audiovisual “El peso en cuestión” realizado en el Taller Audiovisual de TV. 
-    
-    Grabación y edición con celular en el curso “Videomaking creativo”.
-    <video-player src="/videomaking-creativo.mov" controls :loop="true"/>
-    
-    (Entrevistas de atemporales) 
-    
-    (Entrevistas con fortineros)
-
-    Coconducción en Cumbre Digital de Juventear
-    <YouTube src="https://www.youtube.com/watch?v=lzxt3w0QvZc&t=4665s&ab_channel=Juventear" @ready="onReady" ref="youtube" />
-
+    <main>
+        <h2>
+            Producciones audiovisuales
+        </h2>
+        <ul class="mt-4" style="line-height: 2;">
+            <li>
+                Edite, entreviste y conduje en el programa audiovisual “El peso en cuestión” realizado en el Taller Audiovisual de TV. 
+            </li>
+            <li>
+                Grabación y edición con celular en el curso “Videomaking creativo”.
+            </li>
+            <video-player src="/videomaking-creativo.mov" controls :loop="true"/>
+            <li>
+                (Entrevistas de atemporales) 
+            </li>
+            <li>
+                (Entrevistas con fortineros)
+            </li>
+            <li>
+                Coconducción en Cumbre Digital de Juventear
+            </li>
+            <YouTube src="https://www.youtube.com/watch?v=lzxt3w0QvZc&t=4665s&ab_channel=Juventear" @ready="onReady" ref="youtube" />
+        </ul>
+    </main>
 </template>
 
 <style lang="scss" scoped>

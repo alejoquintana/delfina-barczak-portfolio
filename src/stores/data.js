@@ -9,8 +9,8 @@ export const useDataStore = defineStore('data', () => {
             name: 'redacciones',
         },
         {
-            path: '/imagenes-de-tarjetas',
-            name: 'imagenes de tarjetas',
+            path: '/imagenes',
+            name: 'imagenes',
         },
         {
             path: '/curiosidades-sobre-mi',
@@ -20,10 +20,10 @@ export const useDataStore = defineStore('data', () => {
             path: '/producciones-audiovisuales',
             name: 'producciones audiovisuales',
         },
-        {
+        /* {
             path: '/actividades',
             name: 'actividades',
-        },
+        }, */
         {
             path: '/publicaciones-argentina',
             name: 'publicaciones y diseño de argentina.gob.ar',

@@ -1,12 +1,31 @@
 <template>
-    <h2>
-        Producciones audiovisuales
-    </h2>
-    ¿Cómo me ven los demás? (Sumar en el pie del video “Producción y edición propia 2022”)
-    <video-player src="/como-me-ven.mp4" controls :loop="true" />
-    ¿Qué hobbie peculiar tengo? (Sumar en el pie del video “Producción y edición propia 2023”)
-    <video-player src="/hobbie.mp4" controls :loop="true" />
-    Serie autobiográfica
+    <main>
+
+        <h2>
+            Curiosiodades sobre mi
+        </h2>
+        <h3 class="ms-4 mt-4">
+            ·  Producción y edición propia 2022
+        </h3>
+        <div class="mt-4 d-flex flex-column align-items-center">
+            <h4>
+                ¿Cómo me ven los demás?
+            </h4>
+            <video-player src="/como-me-ven.mp4" width="720" controls :loop="true" />
+        </div>
+        <h3 class="ms-4 mt-4">
+            ·  Producción y edición propia 2023
+        </h3>
+        <div class="mt-4 d-flex flex-column align-items-center">
+            <h4>
+                ¿Qué hobbie peculiar tengo?
+            </h4>
+            <video-player src="/hobbie.mp4" controls :loop="true" />
+        </div>
+        <h3 class="ms-4 mt-4">
+            Serie autobiográfica
+        </h3>
+    </main>
 </template>
 
 <style lang="scss" scoped>

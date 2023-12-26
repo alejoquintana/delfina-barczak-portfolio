@@ -33,6 +33,11 @@ const router = createRouter({
             path: '/publicaciones-argentina',
             name: 'publicaciones-argentina',
             component: () => import('../views/PublicacionesArgentinaView.vue')
+        },
+        {
+            path: '/imagenes',
+            name: 'imagenes',
+            component: () => import('../views/ImagenesView.vue')
         }
     ]
 })

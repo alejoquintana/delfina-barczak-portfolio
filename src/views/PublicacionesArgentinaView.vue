@@ -1,11 +1,11 @@
 <template>
     <main>
 
-        <h2>
+        <h2 class="mt-5">
             Publicaciones y diseño de Argentina.gob.ar
         </h2>
 
-        <ul class="w-75 m-auto">
+        <ul class="w-75 m-auto my-5">
             <li>Diseñé y maquete el contenido de la sección <a
                     href="https://www.argentina.gob.ar/jefatura/innovacion-publica/servicios-y-pais-digital/gobierno-abierto">Gobierno
                     Abierto</a> y sus respectivos productos en la web nacional. </li>
@@ -26,7 +26,9 @@
                     federales</a>.
             </li>
         </ul>
-        <img class="m-auto w-50" src="/src/assets/logo_argentina-blanco.svg" alt="">
+        <div class="m-auto w-50 mt-4">
+            <img src="/src/assets/logo_argentina-blanco.svg" alt="">
+        </div>
     </main>
 </template>
 

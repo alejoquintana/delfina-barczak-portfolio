@@ -1,5 +1,7 @@
 <template>
-    <redacciones />
+    <main>
+        <redacciones />
+    </main>
 </template>
 
 <script setup>
